@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-		<meta charset="UTF-8" />
+        <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css" />
@@ -9,22 +9,23 @@
     <body>
         <div style="width:345px; position: relative">
 
-			<div class="sp-slideshow" id="slider">
+            <div class="sp-slideshow" id="slider">
+                <div class="sp-content-body"></div>
                 <div class="sp-content">
                     <div class="sp-parallax-bg" style="background-image: url(http://91.142.158.33:8080/media/buildings/be6e9154-d35b-40bc-a8b4-1b16c19eb88e.png)"></div>
                     <ul class="sp-slider">
-                        <li><img src="http://91.142.158.33:8080/media/buildings/united/2ea4ed37-b0b2-4d5d-bedb-998b77e53647.png" /></li>
-                        <li><img src="http://91.142.158.33:8080/media/buildings/united/4e52af00-b5f1-48d6-88a7-914d80c3c0de.png" /></li>
-                        <li><img src="http://91.142.158.33:8080/media/buildings/united/25cd1291-2369-4e57-8928-35c5062d1456.png" /></li>
-                        <li><img src="http://91.142.158.33:8080/media/buildings/united/70dc8490-b669-4509-a8ba-2fd3d1adcc72.png" /></li>
+                        <li data-nav="none"><img src="http://91.142.158.33:8080/media/buildings/united/2ea4ed37-b0b2-4d5d-bedb-998b77e53647.png" /></li>
+                        <li data-nav="none"><img src="http://91.142.158.33:8080/media/buildings/united/4e52af00-b5f1-48d6-88a7-914d80c3c0de.png" /></li>
+                        <li data-nav="none"><img src="http://91.142.158.33:8080/media/buildings/united/25cd1291-2369-4e57-8928-35c5062d1456.png" /></li>
+                        <li data-nav="none"><img src="http://91.142.158.33:8080/media/buildings/united/70dc8490-b669-4509-a8ba-2fd3d1adcc72.png" /></li>
                     </ul>
                 </div><!-- sp-content -->
 
-			</div><!-- sp-slideshow -->
+            </div><!-- sp-slideshow -->
         </div>
         <script type="text/javascript" src="script.js" />"></script>
-	    <script type="text/javascript">
+        <script type="text/javascript">
             var slider = new paralaxSlider(document.querySelector('#slider'));
         </script>
-	</body>
+    </body>
 </html>
