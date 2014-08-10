@@ -26,6 +26,7 @@ paralaxSlider.prototype._init_navs = function(first_argument) {
     this.slider.style.width = count * 100 + '%';
     for (var i = 0; i < count; i++) {
         var label = document.createElement('label');
+        label.i = i;
         label.onclick = function(){self.slideTo(true, this.i)}
         label.className = 'sp-button-label'
         self.body.appendChild(label)
